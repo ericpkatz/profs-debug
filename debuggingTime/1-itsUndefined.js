@@ -5,7 +5,7 @@ let cousins = {
   molly: {
     livesIn: 'Chennai',
   },
-  itt: {
+  it: {
     livesIn: 'A Big Spooky Mansion'
   },
 }

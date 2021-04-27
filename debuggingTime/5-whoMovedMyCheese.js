@@ -1,4 +1,4 @@
-let ingredients = {
+const ingredients = {
   bread: {
     kind: 'rye',
   },
@@ -10,7 +10,7 @@ let ingredients = {
   }
 }
 
-function sliceCheese (sandwich, cheese) {
+function sliceCheese (cheese) {
   return '1 slice of' + cheese.kind;
 }
 
@@ -24,4 +24,4 @@ function makeASandwich (ingredients) {
   return sandwich;
 }
 
-makeASandwich()
+console.log(makeASandwich(ingredients));

@@ -10,10 +10,10 @@ function cycleStopLight (stopLight) {
   if (stopLight.state === STOP) {
     stopLight.state = PROCEED;
   }
-  else (stopLight.state === PROCEED) {
+  else if(stopLight.state === PROCEED) {
     stopLight.state = CAUTION;
   }
-  else (stopLight.state === CAUTION) {
+  else if(stopLight.state === CAUTION) {
     stopLight.state = STOP;
   }
 }

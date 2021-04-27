@@ -11,7 +11,7 @@ readline.question('Tell me your favorite number...', yourNumber => {
   *********************************************************************
     The incredible Ivanov will now add 100 to your favorite number...
     
-    ${100 + yourNumber}
+    ${100 + yourNumber*1}
   *********************************************************************
 `);
   readline.close();

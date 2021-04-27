@@ -6,7 +6,7 @@ class StarShip {
   }
   
   goldfarbManeuver () {
-    if (this.canSafelyPerformGoldfarbManeuver() = true) {
+    if (this.canSafelyPerformGoldfarbManeuver()) {
       this.roll = Math.abs(Math.min(this.pitch, this.yaw) * Math.sin(22)) * 360;
     }
   }
@@ -18,3 +18,4 @@ class StarShip {
 
 const USSBalthazar = new StarShip()
 USSBalthazar.goldfarbManeuver()
+console.log(USSBalthazar.roll);
